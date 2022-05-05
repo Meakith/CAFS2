@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            margin:auto;
+            background-color: blueviolet;
+            width:600px;
+            transform:translateX(-10%);
+            transform:translateY(50%);
+            text-align: center;
+            border: solid black 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="uzduotisForm.html">
+            <label for="fname">Jusu vardas:</label><br>
+            <input type="text" name="fname" placeholder="Pvz:Jonas"><br>
+
+            <label for="lname">Jusu pavarde:</label><br>
+            <input type="text" name="lname" placeholder="Pvz:Jonaitis"><br>
+
+            <label for="mail">Jusu el.pasto adresas</label><br>
+            <input type="email" name="mail" placeholder="Pvz:jonas.jonaitis@gmail..."><br>
+
+            <label for="num">Jusu tel. nr.</label><br>
+            <input type="tel" name="num" placeholder="+3706..."><br>
+
+            <label for="service">Pasirinkite paslauga.</label><br>
+            <select name="service"><br>
+                <option value="limo">Limuzino nuoma</option>
+                <option value="bike">Dviracio nuoma</option>
+                <option value="quad">Keturracio nuoma</option>
+            </select><br><br>
+
+            <label for="sdate">Nuo kada pageidautumete nuomuotis</label><br>
+            <input type="date"><br><br>
+
+            <label for="ldate">Iki kada pageidautumete nuomuotis</label><br>
+            <input type="date"><br><br>
+
+            <label for="city">Kuriame mieste pasiimsite transporto priemone:</label><br>
+            <select name="city">
+                <option value="kns">Kaune</option>
+                <option value="vln">Vilniuje</option>
+                <option value="vln">Klaipedoje</option>
+            </select><br><br>
+
+            <input type="submit">
+
+
+
+        </form>
+    </main>
+</body>
+</html>

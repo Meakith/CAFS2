@@ -16,7 +16,12 @@ h1{
     outline: 10px solid black;
     position: relative;
     margin: auto;
-    z-index: 1;
+}
+section{
+    width:1600px;
+    height:500px;
+    position: relative;
+    margin: auto;
 }
 button{
     width:300px;

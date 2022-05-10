@@ -1,8 +1,10 @@
+ul{
+    list-style-type: none;
+}
 li{
     min-width:1px;
     outline:1px solid blue;
     padding:15px;
-    list-style-type: none;
     margin-bottom: 10px;
     display: inline-block;
 }

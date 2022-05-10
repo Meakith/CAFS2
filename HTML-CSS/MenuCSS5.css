@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+}
+li{
+    min-width:1px;
+    outline:1px solid black;
+    padding:15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: black;
+}
+li:hover{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li:hover > a{
+    font-size: 30px;
+    font-weight: 900;
+    color:black;
+}

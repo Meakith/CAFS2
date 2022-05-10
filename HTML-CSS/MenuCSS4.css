@@ -1,0 +1,17 @@
+li{
+    min-width:1px;
+    outline:1px solid blue;
+    padding:15px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    font-size: 30px;
+    font-weight: 900;
+    color:red;
+}

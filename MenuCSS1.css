@@ -1,10 +1,11 @@
-li{
-    text-decoration: underline black;
+a{
+    text-decoration: none;
 }
 li:hover{
     color: red;
-    cursor:pointer;
 }
 a:hover{
     color: red;
+    cursor:pointer;
+    text-decoration: underline;
 }

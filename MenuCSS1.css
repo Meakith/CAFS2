@@ -1,0 +1,8 @@
+li{
+    text-decoration: underline black;
+}
+li:hover{
+    color: red;
+    cursor:pointer;
+    text-decoration: underline red;
+}

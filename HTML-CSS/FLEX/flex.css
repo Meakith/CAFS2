@@ -42,11 +42,13 @@ div{
 @media only screen and (min-width:1024px){
     .gray{
         display: block;
-        width:50%;
+        width:30%;
+        margin-right:10px;
     }
     .more{
         display: block;
-        width:50%;
+        width:30%;
+        margin-right:10px;
     }
     .cont2{
         display: flex;
@@ -58,7 +60,7 @@ div{
     }
     .cont4{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction:row;
     }
     .blue{
         width:33%;

@@ -134,10 +134,10 @@ let citiesOfLithuania = [
 ];
 
 function filteredByLetter(citiesOfLithuania,letter){
-    
-
-
+    return citiesOfLithuania.filter(citiesOfLithuaniaVal => citiesOfLithuaniaVal.includes(letter));
 }
+
+console.log(filteredByLetter(citiesOfLithuania,'t'));
 
 // 12. Parašykite penkias funkcijas:
 // - calculateValue()
@@ -146,16 +146,16 @@ function calculateValue(num1,num2,action){
       return 'its not a number';
     }
 
-    if(action == 'addition') {
-        outcome = addition(num1,num2);
+    if(action == 'multiplication') {
+        outcome = multiplication(num1,num2);
         return outcome;
 
       }else if(action == 'subtraction') {
         outcome = subtraction(num1,num2);
         return outcome;
 
-      }else if(action == 'multiplication') {
-        outcome = multiplication(num1,num2);
+      }else if(action == 'addition') {
+        outcome = addition(num1,num2);
         return outcome;
 
       }else if(action == 'division') {

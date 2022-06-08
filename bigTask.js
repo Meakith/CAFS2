@@ -142,10 +142,6 @@ console.log(filteredByLetter(citiesOfLithuania,'t'));
 // 12. Parašykite penkias funkcijas:
 // - calculateValue()
 function calculateValue(num1,num2,action){
-    if(isNaN(num1) || isNaN(num2)){
-      return 'its not a number';
-    }
-
     if(action == 'multiplication') {
         outcome = multiplication(num1,num2);
         return outcome;

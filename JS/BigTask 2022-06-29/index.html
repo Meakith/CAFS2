@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <button class="btn btn-primary" type="submit" id="btn1"> Button </button>
+    <div class="input-group">
+        <input type="text" class="form-control" id="inpt" placeholder="Fill me in">
+        <button class="btn btn-outline-secondary" id="uppr1" type="button">To Upper Case</button>
+        <button class="btn btn-outline-secondary" id="lwr1" type="button">To Lower Case</button>
+        <button class="btn btn-outline-secondary" id="uppr2" type="button">First Upper Case</button>
+        <button class="btn btn-outline-secondary" id="lwr2" type="button">First Lower Case</button>
+    </div>
+
+    <div class="card mt-2">
+        <div class="row p-3">
+            <div class="col-2 d-flex justify-content-left align-items-center"><h3>Email</h3></div>
+            <div class="col-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                    aria-describedby="emailCheck" required>
+                <div id="checkInput" class="invalid-feedback">
+                    Check if email is entered correctly
+                </div>
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-2 d-flex justify-content-left align-items-center"><h3>Phone Number</h3></div>
+            <div class="col-10">
+                <input type="number" class="form-control" id="phone" placeholder="Enter phone number"
+                    aria-describedby="phoneCheck" required>
+                <div id="checkInput" class="invalid-feedback">
+                    Check if phone number is entered correctly
+                </div>
+            </div>
+            <div class="row p-3">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <button id="save" type="submit" class="btn btn-outline-dark mt-3">Save</button>
+                    <div class="valid-feedback">
+                        All good!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="input-group mb-5 p-5">
+            <button class="btn btn-outline-danger" id="blckBtn">Block</button>
+            <input type="text" id="inptBlck" class="form-control" aria-label="inpBlockUnblock"
+                aria-describedby="inpBlockUnblock" placeholder="Type here">
+            <button class="btn btn-outline-success" id="ulcnbkBtn">Unblock</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="input-group mb-3 p-3 justify-content-center">
+            <img src="https://i.imgur.com/PLDVxza.jpg" alt="Img" id="image">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="row p-3" id="textField">
+            <h4 id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        </div>
+        <div class="row p-3">
+            <div class="col-1 btn-group" role="group">
+                <button id="cursor" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">CURSORS</button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a id="pointCrsr" class="dropdown-item">Pointer</a></li>
+                    <li><a id="txtCrsr" class="dropdown-item">Text</a></li>
+                    <li><a id="copyCrsr" class="dropdown-item">Copy</a></li>
+                    <li><a id="helpCrsr" class="dropdown-item">Help</a></li>
+                    <li><a id="crossCrsr" class="dropdown-item">Crosshair</a></li>
+                </ul>
+            </div>
+            <div class="col-1 btn-group" role="group">
+                <button id="color" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">COLOR</button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a id="red" class="dropdown-item">RED</a></li>
+                    <li><a id="green" class="dropdown-item">GREEN</a></li>
+                    <li><a id="blue" class="dropdown-item">BLUE</a></li>
+                </ul>
+            </div>
+            <div class="col-1 btn-group" role="group">
+                <button id="border" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">BORDER</button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a id="brdRed" class="dropdown-item">RED</a></li>
+                    <li><a id="brdGreen" class="dropdown-item">GREEN</a></li>
+                    <li><a id="brdBlue" class="dropdown-item">BLUE</a></li>
+                </ul>
+            </div>
+            <div class="col-2 btn-group" role="group">
+                <button id="reset" type="button" class="btn btn-success">RESET</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

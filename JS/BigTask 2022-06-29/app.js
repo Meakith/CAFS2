@@ -55,12 +55,12 @@ let inptBlock = document.getElementById('inptBlck');
 
 block.addEventListener('click', blockView);
 function blockView() {
-    inptBlock?.setAttribute('readonly', '');
+    inptBlock.readOnly = true;
 };
 
 unblock.addEventListener('click', blockView2);
 function blockView2() {
-    inptBlock?.removeAttribute('readonly');
+    inptBlock.readOnly = false;
 };
 
 // MONKEY

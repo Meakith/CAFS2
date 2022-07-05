@@ -1,7 +1,7 @@
 // ALERT
 let btn = document.getElementById('btn1');
 if (btn) {
-    btn?.addEventListener('click', function (e) {
+    btn.addEventListener('click', function (e) {
         alert('Hello world!')
     });
 };

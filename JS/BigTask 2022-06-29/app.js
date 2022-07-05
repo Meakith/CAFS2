@@ -39,13 +39,18 @@ let emailInput = document.getElementById('email');
 let phoneInput = document.getElementById('phone');
 
 saveButton.addEventListener('click', registerForm);
-function registerForm() {
-    if (!emailInput.value.includes("@") && phoneInput.value == 0) {
+function registerForm(){
+    if(!emailInput.value.includes("@")){
         emailInput.classList.add('is-invalid');
+    }else{
+        emailInput.classList.add('is-valid');
+    };
+
+    if(phoneInput.value == 0){
         phoneInput.classList.add('is-invalid');
-    } else {
-        saveButton.classList.add('is-valid');
-    }
+    }else{
+        phoneInput.classList.add('is-valid');
+    };
 };
 
 // BLOCK/UNBLOCK

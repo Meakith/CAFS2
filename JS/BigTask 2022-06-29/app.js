@@ -78,9 +78,9 @@ let toDefault = document.getElementById('reset');
 
 toDefault.addEventListener('click', resetText);
 function resetText() {
-    mainContent.style.color = 'black';
-    mainContent.style.outline = 'none';
-    document.body.style.cursor = 'pointer';
+    mainContent.style.color = '';
+    mainContent.style.outline = '';
+    document.body.style.cursor = '';
 };
 
 let mainContent = document.getElementById('content');

@@ -16,7 +16,7 @@ class Product {
     };
 
 };
-const productOne = new Product('Nike',this.category[1],'50$')
+const productOne = new Product('Nike',[2],'50$')
 
 console.log(productOne.getProduct());
 

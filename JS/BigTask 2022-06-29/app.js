@@ -159,4 +159,3 @@ crossCursor.addEventListener('click', setCrossCursor);
 function setCrossCursor() {
     document.body.style.cursor = 'crosshair';
 };
-
